@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: hsla(59, 100%, 86%, 1);
+
+background: linear-gradient(45deg, hsla(59, 100%, 86%, 1) 0%, hsla(59, 96%, 90%, 1) 15%, hsla(187, 68%, 84%, 1) 42%, hsla(196, 100%, 82%, 1) 68%, hsla(211, 36%, 86%, 1) 78%, hsla(295, 100%, 93%, 1) 100%);
+
+background: -moz-linear-gradient(45deg, hsla(59, 100%, 86%, 1) 0%, hsla(59, 96%, 90%, 1) 15%, hsla(187, 68%, 84%, 1) 42%, hwb(196 64% 0%) 68%, hsla(211, 36%, 86%, 1) 78%, hsla(295, 100%, 93%, 1) 100%);
+
+background: -webkit-linear-gradient(45deg, hsla(59, 100%, 86%, 1) 0%, hsla(59, 96%, 90%, 1) 15%, hsla(187, 68%, 84%, 1) 42%, hsla(196, 100%, 82%, 1) 68%, hsla(211, 36%, 86%, 1) 78%, hsla(295, 100%, 93%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFEB6", endColorstr="#FEFDCD", GradientType=1 );
+    
+
+    /*background: radial-gradient(circle at 10% 20%, rgba(91, 173, 254, 0.46) 0%, rgba(91, 224, 254, 0.46) 47.2%, rgba(170, 254, 235, 0.43) 90%);*/
+}
+
+.image img {
+    width: 450px;
+    margin-right: 200px;
+    margin-top: -40px;
+
+
+}
+.image{
+    height: 500px;
+    
+    
+
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header ul li{
+    display: flex;
+    margin-right: 20px;
+    
+
+}
+.header ul li a {
+ display: flex;
+ align-items: center;
+ margin-left: 40px;
+ transition: 0.6s;
+ padding: 10px 10px 10px 10px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: white;
+ text-shadow: 10px 10px 25px rgba(186, 155, 53, 0.485),
+ -10px 10px 25px rgba(194, 160, 49, 0.478),
+ -10px -10px 25px rgba(205, 170, 57, 0.471),
+ 10px -10px 25px rgba(185, 153, 47, 0.432);
+ 
+}
+
+.header ul li a:hover{
+    transform:translateY(-30px);
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+
+
+
+.header h5{
+    margin-left: 30px;
+    font-size:larger;
+    color:#f3ed9d;
+
+text-shadow: 10px 10px 25px rgba(186, 155, 53, 0.485),
+    -10px 10px 25px rgba(194, 160, 49, 0.478),
+    -10px -10px 25px rgba(205, 170, 57, 0.471),
+    10px -10px 25px rgba(185, 153, 47, 0.432);
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.left-section{
+    margin-left: 150px;
+    margin-top: 0px;
+
+}
+.left-section h1{
+    width: 600px;
+    font-weight: 400;
+    font-size: 80px;
+    color:aliceblue;
+    font-family: cursive;
+   /*  */
+   text-shadow: 10px 10px 25px rgba(190, 171, 107, 0.671),
+    -10px 10px 25px rgba(81, 67, 21, 0.116),
+    -10px -10px 25px rgba(81, 67, 21, 0.148),
+    10px -10px 25px rgba(81, 67, 21, 0.092);
+    transition: 0.6s;
+
+}
+.left-section h1:hover{
+    transition: 0.6s;
+    font-size: 83px;
+    text-shadow: 10px 10px 25px rgba(81, 67, 21, 0.288),
+    -10px 10px 25px rgba(81, 67, 21, 0.511),
+    -10px -10px 25px rgba(81, 67, 21, 0.236),
+    10px -10px 25px rgba(81, 67, 21, 0.064);
+    
+    
+}
+.left-section button{
+    background: rgb(255, 255, 255);
+    
+    border-radius: 30px;
+    padding: 10px 80px 10px 80px;
+    border: 1px solid white;
+    color: black;
+    margin-left: 50px;
+    transition: 0.4s;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #cfc547;
+
+    text-shadow: 10px 10px 25px rgba(186, 155, 53, 0.485),
+        -10px 10px 25px rgba(194, 160, 49, 0.478),
+        -10px -10px 25px rgba(205, 170, 57, 0.471),
+        10px -10px 25px rgba(185, 153, 47, 0.432);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+.left-section button:hover{
+    cursor: pointer;  
+    opacity:1.0;
+    transition: 0.4s;
+    color:white;
+    background-color: #f3ed9d;
+    border: none;
+    
+}
+.header button {
+    background-color: white;
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 30px;
+    border-radius: 30px;
+    border: 1px solid white;
+    color: black;
+    margin-left: 50px;
+    transition: 0.2s;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #cfc547;
+
+    text-shadow: 10px 10px 25px rgba(186, 155, 53, 0.485),
+        -10px 10px 25px rgba(194, 160, 49, 0.478),
+        -10px -10px 25px rgba(205, 170, 57, 0.471),
+        10px -10px 25px rgba(185, 153, 47, 0.432);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.header button:hover{
+    cursor: pointer;
+    background-color: #f3ed9d;
+    transition: 0.2s;
+    color: white;
+}
+
+

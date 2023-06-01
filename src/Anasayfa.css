@@ -1,0 +1,212 @@
+.hava-durumu-paneli{
+    background-color: rgba(255,255,255,0.3);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width: 60vw;
+    height: 60vh;
+    border-radius: 50px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.hava-durumu{
+    display: flex;
+}
+.hava-lokasyon-bilgi{
+margin-left: 90px;
+margin-top: 50px;
+}
+.hava-lokasyon-bilgi h1{
+    color: black;
+    font-size: 50px;
+    
+}
+.hava-lokasyon-bilgi h4{
+    margin-top: -30px;
+    color: black;
+    
+}
+
+.hava-durum-detay{
+margin-top: 50px;
+padding: 20px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+ width: 15vw;
+ height: 10vh;
+ background-color: rgba(255,255,255,0.3);
+ box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+
+}
+.degerler{
+    display: flex;
+    justify-content:space-between;
+    width: 15vw;
+    height: 15vh;
+    font-weight: bold;
+}
+.hava-durumu-veri{
+    margin-left: 250px;
+    margin-top: 80px;
+}
+.hava-nasıl{
+    align-items: center;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.3);
+    box-shadow: rgba(66, 154, 202, 0.56) 0px 22px 70px 4px;
+    width: 10vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.hava-nasıl a{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-size: large;
+    font-weight:600;
+}
+.sehirler select{
+    padding: 5px 80px 5px 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(246, 246, 246, 0.838);
+
+}
+.haftalık-hava-durum{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.baslikk h1{
+    position: relative;
+    top:200px;
+    left:110px;
+}
+.gunler{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(247, 248, 250, 0.451);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    
+    margin-left: 50px;
+    width: 200px;
+    height:40vh;
+    border-radius: 100px;
+    transition: 0.3s;
+    margin-bottom: 100px;
+    
+    
+}
+.gunler span{
+    font-size:xx-large;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+    color:black;
+    
+}
+.gunler:hover{
+   /*background-color:  rgba(252, 219, 255, 0.66)*/
+   background-color:white;
+   
+   border-radius: 100px;
+   transition: 0.3s;
+   cursor: pointer;
+   
+}
+.slider .button {
+    position: relative;
+    left: 50vh;
+    color: aliceblue;
+}
+.slide-container{
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 80px;
+    min-height: 400px;
+    min-width: 100px;
+
+}
+
+.slide-container img{
+    height: 200px;
+    width: 300px;
+    position: relative;
+    left: 35px;
+    margin-top: 15px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.slide-container p{
+    width: 300px;
+    position: relative;
+    left:40px;
+    top:-20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:smaller;
+}
+.slide-container h3{
+    position: relative;
+    left: 40px;
+    top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.slide-container h5{
+    position: relative;
+    left: 40px;
+    top: -10px;
+}
+.Slider h1{
+    position: relative;
+    left: 60px;
+}
+.Slider{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.anahaber{
+    margin-left: 100px;
+}
+.anahaber img{
+ border-radius: 20px;
+ margin-top: 40px;
+}
+.anahaber h2{
+    width: 550px;
+}
+.hava-durumu-haberler{
+    display: flex;
+    margin-top: 200px;
+
+}
+.yanhaber{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.haberler{
+    display: flex;
+}
+.haber-resim img{
+    margin-top: 10px;
+    width: 180px;
+    height: 150px;
+    border-radius: 20px;
+}
+.haber-icerik{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.haber-icerik h4{
+    width: 500px;
+    font-family: 'Outfit', sans-serif;
+}
+.haber-icerik p{
+    margin-top: -20px;
+}
